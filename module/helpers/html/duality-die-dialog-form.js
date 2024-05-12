@@ -30,6 +30,10 @@ const dualityDieDialogForm = (actor, ability) => {
       `<div class="dialog-input"> <input type="checkbox" data-mod=${item.mod}/> <label class="dialog-input-name">${item.name}</label> <label class="dialog-input-mod">${item.mod}</label></div>`,
   ).join('')}
   </div>
+  <div class='dialog-input-group'>
+      <label class="label" for="orderborne-checkbox">Orderborne</label>
+      <input type="checkbox" id="orderborne-checkbox" class="input-checkbox" data-mod="2">
+  </div>
 `
 }
 
